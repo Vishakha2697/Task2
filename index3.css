@@ -1,0 +1,187 @@
+#main{
+    align-content: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+
+
+#done{
+    right:80%;
+    margin-bottom: 1%;
+    margin-left:84%;
+    width: 16%;
+    height: 25%;
+}
+
+
+
+p{
+    margin-left: 12%;
+    font-size: 20px;
+  
+}
+
+
+.modal-title{
+    font-weight: bold;
+    /* margin-left: -20px; */
+    position: relative;
+    left: -230px;
+    bottom: 20px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.input-group{
+    margin-left: 8%;
+}
+
+#arrow{
+    position: relative;
+    top:12px;
+    right: 120px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.modal-header{
+    height: 80px;
+}
+
+#paid_img{
+    height: 100px;
+    width: 120px;
+}
+
+.modal-footer{
+    margin-top: 60px;
+}
+
+.fa-arrow-right{
+    position: relative;
+    left: 2px;
+}
+
+#paid_box,#single_box{
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    left: 62px;
+    height: 100px;
+    width: 165px;
+    
+}
+
+#free_box,#multiple_box{
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    height: 100px;
+    width: 165px;
+    left: -27px;
+}
+
+#paid_rb,#single_rb{
+    position: relative;
+    left: 163px;
+    top: 5px;
+}
+
+#free_rb,#multiple_rb{
+    position: relative;
+    left: 163px;
+    top: 5px;
+}
+
+#paid_label{
+    position: relative;
+    bottom: 45px;
+    left: 130px;
+    font-size: 15px;
+}
+
+#free_label{
+    position: relative;
+    bottom: 45px;
+    left: 40px;
+    font-size: 15px;
+}
+
+#paid_image{
+ position: absolute;
+ height: 40px;
+ margin-left: 65px;
+ margin-top: 20px;
+}
+
+#free_image{
+    position: absolute;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+.modal-body{
+    height: 80px;
+}
+
+#next_arrow{
+    position: relative;
+    height: 10px;
+    width: 20px;
+    left: 5px;
+    color: white;
+}
+
+#single_label{
+    position: relative;
+    left: 105px;
+    bottom: 45px;
+}
+#single_box{
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    left: 63px;
+    height: 100px;
+    width: 165px;
+}
+#single_id{
+    transform: translateX(18px);
+    position: relative;
+    left: -6px;
+}
+#multi_label{
+    position: relative;
+    left: -40px;
+    bottom: 45px;
+    transform: translateX(40px);
+}
+
+#tip{
+    position: absolute;
+    height: 20px;
+    bottom: 21px;
+    left: 460px;
+}
+
+img::title{
+    font-size: 10px;
+    height: 10px;
+}
+
+.modal-title{
+    top: 15px;
+    right: 190px;
+}
+#paid_id{
+    transform: translateX(12px);
+}
+
+.modal-content{
+    width: 600px;
+}

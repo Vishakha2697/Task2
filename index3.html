@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Raleway:700|Work+Sans:500&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index3.css">
+    
+  
+
+
+	<title>Task2</title>
+
+	<!--  -->
+
+	<style>
+	</style>
+
+</head>
+
+<body>
+
+	
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="main">
+        Click 
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <span aria-hidden="true" data-dismiss="modal" aria-label="Close"><img src="https://img.icons8.com/ios/50/000000/multiply-filled.png" class="img-fluid" id="arrow"></span>
+            
+              <h4 class="modal-title" id="myModalLabel">Event Type</h4>
+            </div>
+            <div class="modal-body">
+              <br>
+              <p id="paid_id">Paid-event or free-event?</p>
+      
+              <div>
+                  <form>
+                    <div class="col-lg-6 col-md-6" id="paid">
+                    <div class="radio" id="paid_box">
+                          <img src="https://cdn1.iconfinder.com/data/icons/business-700/48/Paid-512.png" alt="..." class="img-rounded"  id="paid_image">
+                          <input type="radio" name="optionsRadios" value="option1" id="paid_rb">
+
+                    </div>    
+                        <label id="paid_label">
+                          PAID
+                        </label>
+                    </div>
+                    <div class="col-lg-6 col-md-6" id="free">
+                            <div class="radio" id="free_box">
+                                  <img src="https://cdn1.iconfinder.com/data/icons/ui-beast-8/32/ui-49-512.png" alt="..." class="img-rounded"  id="free_image">
+                                  <input type="radio" name="optionsRadios" value="option1" id="free_rb">
+        
+                            </div>    
+                                <label id="free_label">
+                                  FREE
+                                </label>
+                            </div>
+                  </form>
+              </div>
+
+            </div>
+          
+              <br><br><br>
+               <br><br>
+               <footer>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-info" id="done" data-toggle="modal" data-target="#myModal2" disabled>Next<span><img src="https://img.icons8.com/ultraviolet/40/000000/arrow.png" id="next_arrow"></span></button>
+            </div>
+        </footer>
+          </div>
+        </div>
+      </div>
+	
+
+      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <span aria-hidden="true" data-dismiss="modal" aria-label="Close"><img src="https://img.icons8.com/ios/50/000000/left-filled.png" class="img-fluid" id="arrow"></span>
+                
+                  <h4 class="modal-title" id="myModalLabel">Paid Event</h4>
+                </div>
+                <div class="modal-body">
+                  <br>
+                  <p id="single_id">Single-cost event or multiple-cost event?</p>
+                  
+                  <div>
+                      <img src="i.png" alt="..." id="tip"  data-toggle="tooltip" title="This is a tooltip. Use it to show if there is any help text."> 
+                  </div>
+                  <div>
+                      <form>
+                        <div class="col-lg-6 col-md-6" id="single">
+                        <div class="radio" id="single_box">
+                              <img src="https://img.icons8.com/color/48/000000/average.png" alt="..." class="img-rounded"  id="paid_image">
+                              <input type="radio" name="optionsRadios" value="option1" id="single_rb">
+    
+                        </div>    
+                            <label id="single_label">
+                              SINGLE COST
+                            </label>
+                        </div>
+                        <div class="col-lg-6 col-md-6" id="multiple">
+                                <div class="radio" id="multiple_box">
+                                      <img src="https://img.icons8.com/color/48/000000/banknotes.png" alt="..." class="img-rounded"  id="free_image">
+                                      <input type="radio" name="optionsRadios" value="option1" id="multiple_rb">
+            
+                                </div>    
+                                    <label id="multi_label">
+                                      MULTIPLE COST
+                                    </label>
+                                </div>
+                      </form>
+                  </div>
+    
+                </div>
+              
+                  <br><br><br>
+                   <br><br>
+                   <footer>
+                  <div class="modal-footer">
+                        <br><br>
+                </div>
+            </footer>
+              </div>
+            </div>
+          </div>
+        
+    
+        
+        
+          
+    
+    
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index3.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>
